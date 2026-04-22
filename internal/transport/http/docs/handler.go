@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+//go:embed openapi.json
 var openAPISpec embed.FS
 
 type Handler struct {
